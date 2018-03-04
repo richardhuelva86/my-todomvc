@@ -83,6 +83,13 @@ function Main(props){
                       () => props.onDeleteTodo(todo.id)
                     }
                   />
+                  <button
+                    className="edit"
+                    onClick={
+                      // Empty function for now, we will implement this later.
+                      //() => props.onDeleteTodo(todo.id)
+                    }
+                    />
                 </div>
               </li>
             ))}

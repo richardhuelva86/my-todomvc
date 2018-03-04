@@ -36,6 +36,25 @@ const Actions = {
         TodoDispatcher.dispatch({
             type: TodoActionTypes.TOGGLE_ALL_TODOS
         })
+    },
+    startEditingTodo(text){
+        TodoDispatcher.dispatch({
+            type: TodoActionTypes.START_EDITING_TODO,
+            id
+        })
+    },
+    stopEditingTodo(text){
+        TodoDispatcher.dispatch({
+            type: TodoActionTypes.STOP_EDITING_TODO,
+            id
+        });
+    },
+    editTodo(id){
+        TodoDispatcher.dispatch({
+            type: TodoActionTypes.EDIT_TODO,
+            id,
+            text
+        });
     }
 }
 export default Actions;

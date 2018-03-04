@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.3",
-    "flux": "../../.",
+    "flux": "../..",
     "immutable": "^3.8.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.1"
@@ -33,6 +33,6 @@
     "babel-plugin-transform-runtime": "^6.5.2",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^1.13.0"
+    "webpack": "^1.15.0"
   }
 }
